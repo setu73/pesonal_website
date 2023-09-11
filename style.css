@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather',serif;
+    color: #40514E;
+  }
+  h1{
+    margin-top: 0;
+    font-family: 'Sacramento',cursive;
+    font-size: 5.62rem;
+    margin-bottom: 0;
+    color: #59C1BD;
+  }
+  h2{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+    color: #59C1BD;
+    padding-bottom: 10px;
+  }
+  h3{
+    font-family: 'Montserrat',sans-serif;
+    margin-bottom: 30px;
+    color: #59C1BD;
+  }
+  hr{
+    width:5%;
+    border-style:dotted none none;
+    border-color:grey;
+    border-width:7px;
+    opacity: .2;
+  }
+  p{
+      line-height: 2;
+  }
+  a{
+    text-decoration: none;
+    margin: 15px;
+    font-family: 'Montserrat',sans-serif;
+  }
+  a:hover{
+    color: #EAF6F6;
+  }
+  .top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+  }
+  .top-cloud{
+    position: absolute;
+    right: 200px;
+  }
+  
+  .bottom-cloud{
+    position: absolute;
+    left:150px;
+  }
+  .land{
+    margin-top: 40px;
+    position: relative;
+    top: 5px;
+  }
+  .me{
+    margin-top: 60px;
+    width: 150px;
+  }
+  .p0{
+    color: #59C1BD;
+    font-size: 1.5rem;
+  }
+  .p1{
+    width: 30%;
+    margin: 0 auto 60px;
+  }
+  .skill-row{
+    width: 50%;
+    margin: 90px auto 90px auto;
+    text-align: left;
+  }
+  .cricket{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+  }
+  .football{
+    width: 25%;
+    float: right;
+    margin-left: 20px;
+  }
+  .guitar{
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+  }
+  .contact{
+    width: 40%;
+    margin: 20px auto 20px;
+  }
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+ 
+  .btn:hover {
+    background-color: #0056b3;
+   
+  }
+  .links {
+    display: flex;
+    justify-content: center;
+  }
+  .plans{
+    max-width: 400px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+    .tiles {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto;
+      max-width: 940px;
+      background-color: #f4f4f4;
+      padding: 20px;
+  }
+  
+  .inner {
+      flex: 1;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left {
+      margin-right: 25px;
+  }
+  
+  .right {
+      margin-left: 25px;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007bff;
+    color: #ffffff; 
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .bottom-container{
+    margin-top: 80px;
+    background-color: #59C1BD;
+    padding: 20px;
+  }
+  .copyright{
+    color:#EAF6F6;
+    padding: 20px 0;
+  }
+  
